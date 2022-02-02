@@ -16,29 +16,31 @@ nav {
 
 .navText {
     color: white;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
 .navText h3 {
     font-size: 18px;
     font-weight: 100;
-    float: left;
-    margin: 8px 0 0 30px;
+    margin: 0 0 0 30px;
 }
 
 .navText a {
     color: white;
     text-decoration: none;
     font-weight: 100;
-    float: right;
     margin-right: 25px;
-    margin-top: 10px;
 }
 
 .true-container {
     padding-top: 80px;
-    max-width: 1400px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -46,13 +48,11 @@ nav {
     background-color: white;
     border: 2px solid #e6b800;
     border-radius: 13px;
-    float: left;
     margin: 0 20px 20px 0;
 }
 
 .container h2 {
     margin: 10px 0 20px 10px;
-    
 }
 
 .container p {
